@@ -1,0 +1,63 @@
+header {
+    background-color: rgb(245, 255, 240);
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: rgb(245, 255, 240);
+}
+
+#left-buttons {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+}
+
+#title {
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#right-buttons {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: grid;
+}
+
+#interactive-zone {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: auto 350px;
+}
+
+#game-grid {
+    justify-self: right;
+    display: grid;
+    margin: 0;
+    grid-gap: 1px;
+}
+
+#tips {
+    justify-self: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    align-self: center;
+    color: white;
+    padding: 20px;
+}
+
+#templates {
+    display: grid;
+}
+
+#game-desc {
+    padding: 0px 20px 20px 20px;
+}

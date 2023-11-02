@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+    <link rel="stylesheet" type="text/css" href="styles/game_of_life.css"/>
+    <script src="scripts/game_of_life.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <section id="left-buttons">
+            <button id="restart-button">Restart</button>
+        </section>
+        <h1 id="title">The Game of Life</h1>
+        <section id="right-buttons">
+            <button id="pause-and-play-button">Play</button>
+        </section>
+    </header>
+    <main>
+        <section id="interactive-zone">
+            <div id="game-grid"></div>
+            <div id="sidecar">
+                <div id="tips">Read below before pressing play!</div>
+                <div id="templates"></div>
+            </div>
+        </section>
+        <div id="game-desc">
+            <p>Conway's Game of Life is a simulation of a simple, microscopic ecosystem. This ecosystem consists of living and dead cells. Living cells appear in white, while dead cells appear in black.</p>
+            <p>Living cells can die if they're suffocated (more than 3 neighbors) or lonely (less than 2). Dead cells can revive if they have exactly 3 neighbors (like reproduction).</p>
+            <p>The game progresses in generations! The rules above apply to cells changing from one generation to the next.</p>
+            <p>This puzzle is meant to simulate the importance of starting conditions. Your target is a nice, healthy ecosystem that maintains its mass and therefore lives on forever in harmony.</p>
+            <p>This ecosystem currently has a tiny problem: it is missing a cell! This may seem trivial, but lacking a single cell is what's causing the ecosystem to eventually fail. Stagnation is death.</p>
+            <p>Figure out where the single cell belongs. Once you do, you unlock full interactivity!</p>
+        </div>
+    </main>
+</body>
+</html>
