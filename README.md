@@ -16,3 +16,7 @@ Every generation, each cell follows these simple rules:
 Yes, they can! This virtual simulation is ours and we can do whatever we want with it.
 
 I plan to allow the user to customize the rules once they have beaten a second challenge. I might have to optimize the code (a lot!), but it's on the horizon.
+
+<p align="center">
+<img src="./images/gol.png" alt="Game of Life Logo"/>
+</p>
